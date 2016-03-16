@@ -111,6 +111,9 @@ p {
 	color: #212326;
 	font-style: italic;
 }
+.commited .quote {
+	color: #fff;
+}
 @media (min-width: 600px) /* desktop */ {
 	h1 {
 	  font-size: 80px;
