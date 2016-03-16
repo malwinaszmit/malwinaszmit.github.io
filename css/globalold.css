@@ -71,7 +71,7 @@ h1 {
 	line-height: 1;
 }
 .hero h1 {
-	margin-top: 100px;
+	margin-top: 120px;
 }
 h2 {
   font-size: 26px;
@@ -123,7 +123,7 @@ p {
 		margin-right: auto;
 	}
 	.hero h1 {
-		margin-top: 130px;
+		margin-top: 140px;
 	}
 	h2 {
 	  font-size: 42px;
@@ -144,13 +144,13 @@ p {
 	box-sizing: border-box;
 }
 .hero {
-	background: #2b2f33 url(../img/workout-01.jpg) no-repeat center top;
+	background: #2b2f33 url(../img/workout-01.jpg) no-repeat center center fixed;
 	background-size: cover;
 	height: 500px;
 	padding-top: 50px;
 }
 .logo img {
-	height: 70px;
+	height: 50px;
 	width: auto;
 }
 .intro {
@@ -159,7 +159,7 @@ p {
 	margin: 0 auto;
 }
 .looking-wrap {
-	background: #2b2f33 url(../img/workout-03.jpg) no-repeat 70% center;
+	background: #2b2f33 url(../img/workout-03.jpg) no-repeat center center;
 	background-size: cover;
 }
 .committed {
@@ -183,7 +183,7 @@ p {
 	top: 0;
 	left: 0;
 	right: 0;
-	background: url(../img/arrow_down.svg) no-repeat center 460px;
+	background: url(../img/arrow_down.svg) no-repeat center 96%;
 	background-size: 30px auto;
 }
 .slide {
@@ -191,7 +191,7 @@ p {
 }
 /* carousel images */
 .slide_one {
-	background: #2b2f33 url(../img/workout-02.jpg) no-repeat left center;
+	background: #2b2f33 url(../img/workout-02.jpg) no-repeat center center;
 	background-size: cover;
 }
 .slide_two {
@@ -199,19 +199,12 @@ p {
 	background-size: cover;
 }
 .slide_three {
-	background: #2b2f33 url(../img/workout-06.jpg) no-repeat left center;
+	background: #2b2f33 url(../img/workout-06.jpg) no-repeat center center;
 	background-size: cover;
 }
 @media (min-width: 600px) /* desktop */ {
 	.hero {
 		height: 760px;
-		background-attachment: fixed;
-	}
-	.downarrow {
-		background: url(../img/arrow_down.svg) no-repeat center 96%;
-	}
-	.logo img {
-		height: 90px;
 	}
 	.wrap {
 		padding-left: 50px;
@@ -222,11 +215,6 @@ p {
 	}
 	.text-cen {
 		padding: 0 50px;
-	}
-}
-@media (min-height: 760px) {
-	.downarrow {
-		display: none;
 	}
 }
 /* Footer */
@@ -258,7 +246,7 @@ p {
 	color: rgba(0,0,0,.5);
 }
 .social p {
-	padding-bottom: 4em;
+	margin-bottom: 4em;
 }
 @media (min-width: 600px) /* desktop */ {
 	.social {
@@ -310,10 +298,6 @@ p {
 	}
 }
 
-input {
-	-webkit-appearance: none;
-	-webkit-border-radius: 0;
-}
 input[type="text"],
 input[type="email"],
 textarea {
@@ -415,7 +399,7 @@ input[type="submit"]:hover {
   font-weight: bold;
 }
 [class^="ss-"].right:before, [class^="ss-"][class*=" ss-social"].right:before{display:none;content:'';}
-.ss-facebook:before,.ss-facebook.right:after{content:'ï˜'}.ss-twitter:before,.ss-twitter.right:after{content:'ï˜‘'}.ss-linkedin:before,.ss-linkedin.right:after{content:'ï˜’'}.ss-googleplus:before,.ss-googleplus.right:after{content:'ï˜“'}.ss-tumblr:before,.ss-tumblr.right:after{content:'ï˜ '}.ss-wordpress:before,.ss-wordpress.right:after{content:'ï˜¡'}.ss-blogger:before,.ss-blogger.right:after{content:'ï˜¢'}.ss-posterous:before,.ss-posterous.right:after{content:'ï˜£'}.ss-youtube:before,.ss-youtube.right:after{content:'ï˜°'}.ss-vimeo:before,.ss-vimeo.right:after{content:'ï˜±'}.ss-flickr:before,.ss-flickr.right:after{content:'ï™€'}.ss-instagram:before,.ss-instagram.right:after{content:'ï™'}.ss-pinterest:before,.ss-pinterest.right:after{content:'ï™'}.ss-dribbble:before,.ss-dribbble.right:after{content:'ï™ '}.ss-behance:before,.ss-behance.right:after{content:'ï™¡'}.ss-github:before,.ss-github.right:after{content:'ï™°'}.ss-octocat:before,.ss-octocat.right:after{content:'ï™±'}.ss-paypal:before,.ss-paypal.right:after{content:'ïš€'}.ss-foursquare:before,.ss-foursquare.right:after{content:'ïš'}.ss-skype:before,.ss-skype.right:after{content:'ïš '}.ss-rdio:before,.ss-rdio.right:after{content:'ïš°'}.ss-spotify:before,.ss-spotify.right:after{content:'ïš±'}.ss-lastfm:before,.ss-lastfm.right:after{content:'ïš²'}.ss-mail:before,.ss-mail.right:after{content:'âœ‰'}.ss-like:before,.ss-like.right:after{content:'ðŸ‘'}.ss-rss:before,.ss-rss.right:after{content:'îŒ'}
+.ss-facebook:before,.ss-facebook.right:after{content:''}.ss-twitter:before,.ss-twitter.right:after{content:''}.ss-linkedin:before,.ss-linkedin.right:after{content:''}.ss-googleplus:before,.ss-googleplus.right:after{content:''}.ss-tumblr:before,.ss-tumblr.right:after{content:''}.ss-wordpress:before,.ss-wordpress.right:after{content:''}.ss-blogger:before,.ss-blogger.right:after{content:''}.ss-posterous:before,.ss-posterous.right:after{content:''}.ss-youtube:before,.ss-youtube.right:after{content:''}.ss-vimeo:before,.ss-vimeo.right:after{content:''}.ss-flickr:before,.ss-flickr.right:after{content:''}.ss-instagram:before,.ss-instagram.right:after{content:''}.ss-pinterest:before,.ss-pinterest.right:after{content:''}.ss-dribbble:before,.ss-dribbble.right:after{content:''}.ss-behance:before,.ss-behance.right:after{content:''}.ss-github:before,.ss-github.right:after{content:''}.ss-octocat:before,.ss-octocat.right:after{content:''}.ss-paypal:before,.ss-paypal.right:after{content:''}.ss-foursquare:before,.ss-foursquare.right:after{content:''}.ss-skype:before,.ss-skype.right:after{content:''}.ss-rdio:before,.ss-rdio.right:after{content:''}.ss-spotify:before,.ss-spotify.right:after{content:''}.ss-lastfm:before,.ss-lastfm.right:after{content:''}.ss-mail:before,.ss-mail.right:after{content:'✉'}.ss-like:before,.ss-like.right:after{content:'👍'}.ss-rss:before,.ss-rss.right:after{content:''}
 
 /* Slider */
 .slick-slider {
