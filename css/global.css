@@ -231,7 +231,7 @@ p {
 }
 /* Footer */
 .updates {
-	background: url(../img/background.png) no-repeat center 96%;
+	background: #2b2f33;
 	padding: 50px 20px;
 	margin-bottom: 4em;
 }
