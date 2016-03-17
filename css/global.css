@@ -205,8 +205,11 @@ p {
 	background-size: 400px auto,cover;
 }
 .slide_three {
-	background: #2b2f33 url(../img/workout-06.jpg) no-repeat left center;
-	background-size: cover;
+	background:
+	  url(../img/Yellow.png) no-repeat right bottom,
+	  url(../img/workout-06.jpg) no-repeat left center,
+	  #2b2f33; 
+	background-size: 400px auto,cover;
 }
 @media (min-width: 600px) /* desktop */ {
 	.hero {
