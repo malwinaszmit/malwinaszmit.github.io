@@ -195,7 +195,7 @@ p {
 		url(../img/Purple.png) no-repeat 70% bottom,
 	 	url(../img/workout-02.jpg) no-repeat left center,
 		#2b2f33;
-	background-size: 50px auto,cover;
+	background-size: 100px auto,cover;
 }
 .slide_two {
 	background: #2b2f33 url(../img/workout-05.jpg) no-repeat center center;
