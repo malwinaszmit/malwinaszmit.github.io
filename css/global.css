@@ -144,8 +144,11 @@ p {
 	box-sizing: border-box;
 }
 .hero {
-	background: #2b2f33 url(../img/workout-01.jpg) no-repeat center top;
-	background-size: cover;
+	background:
+	url(../img/Topbar.png) no-repeat center top,
+	url(../img/workout-01.jpg) no-repeat center top,
+	#2b2f33;
+	background-size: 100px auto,cover;
 	height: 500px;
 	padding-top: 50px;
 }
