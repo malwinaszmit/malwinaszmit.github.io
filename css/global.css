@@ -191,6 +191,8 @@ p {
 }
 /* carousel images */
 .slide_one {
+	background: #2b2f33 url(../img/Purple.png) no-repeat right center;
+	background-size: 80px auto;
 	background: #2b2f33 url(../img/workout-02.jpg) no-repeat left center;
 	background-size: cover;
 }
