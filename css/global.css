@@ -162,8 +162,8 @@ p {
 	background:
 	url(../img/Green.png) no-repeat left bottom,
 	url(../img/workout-03.jpg) no-repeat 70% center,
-	#2b2f33; 
-	background-size: 400px auto,cover;
+	#2b2f33;
+	background-size: 350px auto,cover;
 }
 .committed {
 	position: relative;
