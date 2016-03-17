@@ -145,7 +145,7 @@ p {
 }
 .hero {
 	background:
-	url(../img/Topbar.png) no-repeat center top,
+	url(../img/Topbar.png) no-repeat top,
 	url(../img/workout-01.jpg) no-repeat center top,
 	#2b2f33;
 	background-size: cover;
