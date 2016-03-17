@@ -191,9 +191,10 @@ p {
 }
 /* carousel images */
 .slide_one {
-	background: #2b2f33 url(../img/Purple.png) no-repeat right center;
-	background-size: 80px auto;
-	background: #2b2f33 url(../img/workout-02.jpg) no-repeat left center;
+	background:
+		url(../img/Purple.png) no-repeat 70% bottom,
+	 	url(../img/workout-02.jpg) no-repeat left center,
+		#2b2f33;
 	background-size: cover;
 }
 .slide_two {
@@ -207,7 +208,6 @@ p {
 @media (min-width: 600px) /* desktop */ {
 	.hero {
 		height: 760px;
-		background-attachment: fixed;
 	}
 	.downarrow {
 		background: url(../img/arrow_down.svg) no-repeat center 96%;
@@ -224,6 +224,11 @@ p {
 	}
 	.text-cen {
 		padding: 0 50px;
+	}
+}
+@media (min-width: 1025px) /* desktop */ {
+	.hero {
+		background-attachment: fixed;
 	}
 }
 @media (min-height: 760px) {
