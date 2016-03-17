@@ -198,8 +198,11 @@ p {
 	background-size: 400px auto,cover;
 }
 .slide_two {
-	background: #2b2f33 url(../img/workout-05.jpg) no-repeat center center;
-	background-size: cover;
+	background:
+	  url(../img/Red.png) no-repeat left bottom,
+	  url(../img/workout-05.jpg) no-repeat center center,
+		#2b2f33;
+	background-size: 400px auto,cover;
 }
 .slide_three {
 	background: #2b2f33 url(../img/workout-06.jpg) no-repeat left center;
