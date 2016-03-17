@@ -192,10 +192,10 @@ p {
 /* carousel images */
 .slide_one {
 	background:
-		url(../img/Purple.png) no-repeat 100% bottom,
+		url(../img/Purple.png) no-repeat right bottom,
 	 	url(../img/workout-02.jpg) no-repeat left center,
 		#2b2f33;
-	background-size: 500px auto,cover;
+	background-size: 400px auto,cover;
 }
 .slide_two {
 	background: #2b2f33 url(../img/workout-05.jpg) no-repeat center center;
