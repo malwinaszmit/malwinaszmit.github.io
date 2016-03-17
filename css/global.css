@@ -200,7 +200,7 @@ p {
 .slide_two {
 	background:
 	  url(../img/Red.png) no-repeat left bottom,
-	  url(../img/workout-05.jpg) no-repeat center center,
+	  url(../img/workout-05.jpg) no-repeat right center,
 		#2b2f33;
 	background-size: 400px auto,cover;
 }
