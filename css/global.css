@@ -159,8 +159,11 @@ p {
 	margin: 0 auto;
 }
 .looking-wrap {
-	background: #2b2f33 url(../img/workout-03.jpg) no-repeat 70% center;
-	background-size: cover;
+	background:
+	url(../img/Green.png) no-repeat left bottom,
+	url(../img/workout-03.jpg) no-repeat 70% center,
+	#2b2f33; 
+	background-size: 400px auto,cover;
 }
 .committed {
 	position: relative;
@@ -208,7 +211,7 @@ p {
 	background:
 	  url(../img/Yellow.png) no-repeat right bottom,
 	  url(../img/workout-06.jpg) no-repeat left center,
-	  #2b2f33; 
+	  #2b2f33;
 	background-size: 400px auto,cover;
 }
 @media (min-width: 600px) /* desktop */ {
