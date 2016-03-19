@@ -206,7 +206,7 @@ p {
 .slide_two {
 	background:
 	  url(../img/Red.png) no-repeat left bottom,linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
-	  url(../img/workout-07.jpg) no-repeat right center,
+	  url(../img/workout-05.jpg) no-repeat right center,
 		#2b2f33;
 	background-size: 400px auto,100% 100%,cover;
 }
