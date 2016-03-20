@@ -212,7 +212,7 @@ p {
 }
 .slide_three {
 	background:
-	  url(../img/Yellow.png) no-repeat right bottom, linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ),
+	  url(../img/Yellow.png) no-repeat right bottom, linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
 	  url(../img/workout-06.jpg) no-repeat left center,
 	  #2b2f33;
 	background-size: 400px auto,100% 100%,cover;
