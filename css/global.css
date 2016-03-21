@@ -243,7 +243,7 @@ p {
 		background-attachment: fixed;
 	}
 }
-@media (min-height: 760px) {
+@media (min-height: 840px) {
 	.downarrow {
 		display: none;
 	}
